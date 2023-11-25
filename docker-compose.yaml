@@ -54,4 +54,5 @@ services:
       - Search__Type=Database
     volumes:
       - ./data/baget:/var/baget
+      - ./data/baget/data-protection-keys:/root/.aspnet/DataProtection-Keys
     container_name: nuget-ui
